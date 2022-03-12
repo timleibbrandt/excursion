@@ -1,35 +1,35 @@
 body {
     background-color: black;
     text-align: center;
+    font-family: Verdana;
   }
 
-  h1, h2{
-      font-family: Verdana;
+  /*HEADINGS*/
+
+  h1, h2, h4{
       color: white;
-      text-align: center;
   }
 
-  h1 {
+  .header--main {
     font-weight: normal;
     font-size: 50px;
 }
 
-  h2{
+  .header--secondary{
     font-weight: 300;
     font-size: 42px;
   }
 
-  p {
-    font-family: Verdana;
-    color: gray;
-    text-align: center;
+  .header--subheader{
+    font-weight: 300;
     font-size: 21px;
+    color: gray;
   }
 
-  a{
-      font-family: Verdana;
+  /*LINKS*/
+
+  .link--cta{
       color: aquamarine;
-      text-align: center;
       font-size: 16px;
   }
 
@@ -38,6 +38,11 @@ body {
     margin: 0 auto;
   }
 
-  footer p{
+  
+  /*FOOTER*/
+
+  .footer--copyright{
       text-align: right;
+      color: gray;
+      font-size: 16px;
   }
